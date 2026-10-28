@@ -1,82 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre produtos incríveis com ótimos preços em nossa loja.">
+    <title>Minha Loja | Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>TechNews</h1>
-        <p>Receba as principais notícias de tecnologia</p>
 
-        <nav>
+    <header>
+        <h1>Minha Loja</h1>
+
+        <nav aria-label="Navegação principal">
             <ul>
-                <li><a href="index.html">tecnologia</a></li>
-                <li><a href="notícia.html">Última Hora</a></li>
-                <li><a href="cadastro.html">Newsletter</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/login.html">Entrar</a></li>
+                <li><a href="pages/cadastro.html">Cadastrar</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-
-        <section>
-            <h2>Inscreva-se na nossa Newsletter</h2>
-            
-            <p>
-                Cadastre-se para receber novidades, notícias e informações sobre tecnologia diretamente no seu E-mail.
-            </p>
-
-            <form>
-
-            <p> 
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
-            </p>
-
-            <p>
-                <label for="E-mail">E-mail</label>
-                <input type="email" id="email" name="email">
-            </p>
-
-            <p>
-                <label for="idade">Idade</label>
-                <input type="number" id="idade" name="idade">
-            </p>
-
-            <p>
-                <label for="cor">Qual é sua cor favorita</label>
-                <input type="color" id="cor" name="cor">
-            </p>
-
-            <p>
-                <input type="submit" value="Cadastrar">
-            </p>
-            </form>
-            
-            
+        <section aria-labelledby="titulo-principal">
+            <h2 id="titulo-principal">Bem-vindo à nossa loja!</h2>
+            <p>Confira nossos produtos e aproveite nossas ofertas.</p>
         </section>
 
-        <aside>
-            <h2>Por que assinar?</h2>
-            <ul>
-                <li>Receba notícias de tecnologia</li>
-                <li>Acompanhe as novidades do mercado</li>
-                <li>Descubra novas tendencias</li>
-                <li>Tenha acesso a conteúdos exclusivos</li>
-            </ul>
-        </aside>
+        <section aria-labelledby="titulo-produtos">
+            <h2 id="titulo-produtos">Nossos produtos</h2>
 
+            <article>
+                <img
+                    src="https://placehold.co/300x200?text=Fone+Bluetooth"
+                    alt="Imagem ilustrativa de um fone de ouvido Bluetooth"
+                    width="300"
+                    height="200"
+                >
+                <h3>Fone Bluetooth</h3>
+                <p>Ouça suas músicas favoritas com qualidade e conforto.</p>
+                <p><strong>Preço: R$ 149,90</strong></p>
+                <a href="pages/login.html">Comprar</a>
+            </article>
+
+            <article>
+                <img
+                    src="https://placehold.co/300x200?text=Smartwatch"
+                    alt="Imagem ilustrativa de um relógio inteligente"
+                    width="300"
+                    height="200"
+                >
+                <h3>Smartwatch</h3>
+                <p>Acompanhe suas atividades físicas e notificações diárias.</p>
+                <p><strong>Preço: R$ 229,90</strong></p>
+                <a href="pages/login.html">Comprar</a>
+            </article>
+
+            <article>
+                <img
+                    src="https://placehold.co/300x200?text=Mochila"
+                    alt="Imagem ilustrativa de uma mochila para uso diário"
+                    width="300"
+                    height="200"
+                >
+                <h3>Mochila Casual</h3>
+                <p>Praticidade e espaço para acompanhar sua rotina.</p>
+                <p><strong>Preço: R$ 119,90</strong></p>
+                <a href="pages/login.html">Comprar</a>
+            </article>
+        </section>
     </main>
 
     <footer>
-        <p>copy; 2026 TechNews- todos os direitoa reservados.</p>
-        <a href="index.html">Inícios</a>
-        <a href="notícia.html"> Última Hora</a>
-
+        <p>&copy; 2026 Minha Loja. Todos os direitos reservados.</p>
+        <p>Entre em contato: contato@minhaloja.com</p>
     </footer>
-</body>
 
+</body>
 </html>
